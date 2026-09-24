@@ -1,6 +1,9 @@
 <div align="center">
 
-# 🚀 Sobe Tudo
+# Meta Campaign Forge — Automated Meta Marketing API Campaign Compiler
+
+> A programmatic advertising engine interacting directly with the Meta Graph Marketing API to automate ad set creation, budget scaling, and audience targeting.
+
 
 ### Open-source dashboard to launch Facebook / Meta ad campaigns with AI — bring your own keys.
 
