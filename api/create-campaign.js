@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     const cbo = (b.budgetLevel || 'campaign') !== 'adset';
     const dailyBudget = Math.round(Number(b.dailyBudget || 20) * 100);
     const countries = parseCountries(b.countries);
-    const name = `${b.campaignName || 'Sobe Tudo'} — ${new Date().toISOString().slice(0, 10)}`;
+    const name = `${b.campaignName || 'Meta Campaign Forge'} — ${new Date().toISOString().slice(0, 10)}`;
 
     const campaign = await fbPost(fbToken, `${adAccount}/campaigns`, {
       name, objective: 'OUTCOME_SALES', status, special_ad_categories: [],
@@ -24,7 +24,7 @@ export default async function handler(req, res) {
     let adsetId = null;
     if (structure === 'one_adset') {
       const as = await fbPost(fbToken, `${adAccount}/adsets`, adsetBody({
-        name: `${b.campaignName || 'Sobe Tudo'} — set 1`, campaignId: campaign.id, status,
+        name: `${b.campaignName || 'Meta Campaign Forge'} — set 1`, campaignId: campaign.id, status,
         pixelId: b.pixelId, countries, cbo, dailyBudget,
       }));
       adsetId = as.id;

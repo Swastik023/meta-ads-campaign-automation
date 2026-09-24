@@ -1,4 +1,4 @@
-# Contributing to Sobe Tudo
+# Contributing to Meta Campaign Forge
 
 First off — thank you! 🙌 This project grows with the community. Contributions of all sizes are welcome, from typo fixes to whole features on the [roadmap](README.md#-roadmap).
 
@@ -9,13 +9,13 @@ First off — thank you! 🙌 This project grows with the community. Contributio
 - 🐛 **Report bugs** — open an issue with steps to reproduce.
 - 💡 **Suggest features** — open a feature request.
 - 📝 **Improve docs** — README, this guide, code comments.
-- 🛠️ **Pick up an issue** — look for [`good first issue`](https://github.com/themagicmkt/sobe-tudo/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and [`help wanted`](https://github.com/themagicmkt/sobe-tudo/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
+- 🛠️ **Pick up an issue** — look for [`good first issue`](https://github.com/swastik-agnihotri/meta-campaign-forge/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and [`help wanted`](https://github.com/swastik-agnihotri/meta-campaign-forge/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 
 ## Dev setup
 
 ```bash
-git clone https://github.com/themagicmkt/sobe-tudo.git
-cd sobe-tudo
+git clone https://github.com/swastik-agnihotri/meta-campaign-forge.git
+cd meta-campaign-forge
 npm install
 npm start            # http://localhost:4000
 ```

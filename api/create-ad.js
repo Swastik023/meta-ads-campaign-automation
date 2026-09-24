@@ -45,7 +45,7 @@ export default async function handler(req, res) {
       const dailyBudget = Math.round(Number(b.dailyBudget || 20) * 100);
       const countries = parseCountries(b.countries);
       const as = await fbPost(fbToken, `${adAccount}/adsets`, adsetBody({
-        name: `${b.campaignName || 'Sobe Tudo'} — ${display}`, campaignId: b.campaignId, status,
+        name: `${b.campaignName || 'Meta Campaign Forge'} — ${display}`, campaignId: b.campaignId, status,
         pixelId: b.pixelId, countries, cbo, dailyBudget,
       }));
       adsetId = as.id;

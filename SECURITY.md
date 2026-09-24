@@ -5,13 +5,13 @@
 **Please do not open a public issue for security vulnerabilities.**
 
 Instead, use GitHub's private reporting:
-**[Report a vulnerability](https://github.com/themagicmkt/sobe-tudo/security/advisories/new)** (Security → Advisories → Report a vulnerability).
+**[Report a vulnerability](https://github.com/swastik-agnihotri/meta-campaign-forge/security/advisories/new)** (Security → Advisories → Report a vulnerability).
 
 We aim to acknowledge reports within **72 hours** and to ship a fix or mitigation as quickly as possible. Please include steps to reproduce and the impact you observed.
 
 ## Scope & design notes
 
-Sobe Tudo is **bring-your-own-keys** and runs **locally** by default:
+Meta Campaign Forge is **bring-your-own-keys** and runs **locally** by default:
 
 - The Facebook token and Anthropic API key are stored in the **browser's `localStorage`** and sent per-request to the local server.
 - The server (`server.mjs`) uses the keys **in memory only** for the duration of a request and **never writes them to disk**.

@@ -1,10 +1,10 @@
-# Sobe Tudo — project context (read first)
+# Meta Campaign Forge — project context (read first)
 
 > For AI coding assistants and new contributors: read this before changing anything.
 > Human contributors should also read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## What this is
-**Sobe Tudo** is an open-source dashboard to **launch Facebook/Meta ad campaigns with AI**, using **the user's own keys**. It's a local app (Node + browser) that:
+**Meta Campaign Forge** is an open-source dashboard to **launch Facebook/Meta ad campaigns with AI**, using **the user's own keys**. It's a local app (Node + browser) that:
 1. takes the user's keys (Facebook token + Anthropic/Claude API key),
 2. reads a folder of creatives (`.mp4`/`.mov`),
 3. generates each ad's copy with AI (Claude) from a brief,

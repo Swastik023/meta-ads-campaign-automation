@@ -1,4 +1,4 @@
-<!-- Thanks for contributing to Sobe Tudo! 🚀 -->
+<!-- Thanks for contributing to Meta Campaign Forge! 🚀 -->
 
 ## What does this PR do?
 
