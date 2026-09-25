@@ -12,8 +12,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Node](https://img.shields.io/badge/node-%E2%89%A518-339933.svg?logo=node.js&logoColor=white)](https://nodejs.org)
-[![CodeQL](https://github.com/swastik-agnihotri/meta-campaign-forge/actions/workflows/codeql.yml/badge.svg)](https://github.com/swastik-agnihotri/meta-campaign-forge/actions/workflows/codeql.yml)
-[![CI](https://github.com/swastik-agnihotri/meta-campaign-forge/actions/workflows/ci.yml/badge.svg)](https://github.com/swastik-agnihotri/meta-campaign-forge/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Swastik023/meta-ads-campaign-automation/actions/workflows/codeql.yml/badge.svg)](https://github.com/Swastik023/meta-ads-campaign-automation/actions/workflows/codeql.yml)
+[![CI](https://github.com/Swastik023/meta-ads-campaign-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/Swastik023/meta-ads-campaign-automation/actions/workflows/ci.yml)
 
 **Paste your Facebook token + Anthropic (Claude) API key, point at a folder of video creatives, describe your offer — and Meta Campaign Forge writes the ad copy with AI and builds the whole campaign (CBO campaign → ad set → ads) on the Meta Marketing API.**
 
@@ -46,7 +46,7 @@ Launching a batch of Meta video ads by hand is slow: upload each video, write co
 Built for Vercel — serverless functions + **Vercel Blob** for video uploads (scales to hundreds of videos per campaign).
 
 ```bash
-git clone https://github.com/swastik-agnihotri/meta-campaign-forge.git
+git clone https://github.com/Swastik023/meta-ads-campaign-automation.git
 cd meta-campaign-forge
 npm install
 vercel link          # link/create the project
@@ -85,7 +85,7 @@ Local Node/Express server (server.mjs)
 
 ## 🗺️ Roadmap
 
-Help wanted on any of these — see [issues](https://github.com/swastik-agnihotri/meta-campaign-forge/issues):
+Help wanted on any of these — see [issues](https://github.com/Swastik023/meta-ads-campaign-automation/issues):
 
 - [ ] Accounts + auth (multi-tenant, leave localhost)
 - [ ] *Optional:* one-click hosted version (managed deploy) — self-hosting always stays free & open
@@ -98,7 +98,7 @@ Help wanted on any of these — see [issues](https://github.com/swastik-agnihotr
 
 ## 🤝 Contributing
 
-Contributions are very welcome! Read **[CONTRIBUTING.md](CONTRIBUTING.md)** and look for [`good first issue`](https://github.com/swastik-agnihotri/meta-campaign-forge/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22). By participating you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
+Contributions are very welcome! Read **[CONTRIBUTING.md](CONTRIBUTING.md)** and look for [`good first issue`](https://github.com/Swastik023/meta-ads-campaign-automation/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22). By participating you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## 🔐 Security
 
