@@ -1,6 +1,8 @@
 <div align="center">
 
-# Meta Campaign Forge — Automated Meta Marketing API Campaign Compiler
+# Meta Ads Campaign Automation & Budget Management Platform
+
+> A programmatic advertising engine interacting directly with the Meta Graph Marketing API to automate ad sets.
 
 > A programmatic advertising engine interacting directly with the Meta Graph Marketing API to automate ad set creation, budget scaling, and audience targeting.
 
